@@ -43,8 +43,8 @@ ul {
     
 }
 
-.activ {
-    background-color:#2196F3;
+.nav-list .activ {
+    color:#2196F3;
 }
 
 .nav-list .link:hover,
@@ -53,10 +53,7 @@ ul {
 .contact-list .link:focus {
     color: var(--accent-color);
 }
-.nav-list .activ:hover,
-.nav-list .activ:focus {
-    color: #FFFFFF;
-}
+
 .contact-list .link {
     color: var(--primary-text-color);
     font-weight: 500;
@@ -130,16 +127,17 @@ ul {
 .command-title {
     color: var(--title-text-color);
     font-weight: 500;
+    font-size: 16px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
     text-align: center;
     letter-spacing: 0.03em;
+    
 }
 
 .command-list .text {
     font-weight: 400;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
+    font-size: 16px;
+    line-height: 1.19;  
     text-align: center;
     letter-spacing: 0.03em;
 }
